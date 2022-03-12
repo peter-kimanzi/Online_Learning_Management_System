@@ -1,0 +1,10 @@
+Please follow the instructions carefully.
+1. Go to system settings from settings menu in admin panel
+2. Move to the section 'Update Product' on that page
+3. Upload the file 'update_2.0.1.zip' from your copy of Academy app downloaded from Codecanyon.
+4. Hit the button 'install update'.
+5. If you have updated the application successfully, you will be able to move forward. Copy the directory "Stripe" from the fresh copy of Academy app you just have downloaded from Codecanyon. You will find the "Stripe" directory inside application > libraries. After copying the "Stripe" directory move to your existing Academy application and paste it inside application > libraries.
+6. That's it
+
+PLEASE MAKE SURE THAT YOU ARE RUNNING THE 2.0 VERSION BEFORE UPDATING TO 2.1
+IF YOU ARE ALREADY RUNNING THE 2.1 VERSION THERE IS NO NEED TO UPDATE… Thank You

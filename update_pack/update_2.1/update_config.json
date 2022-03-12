@@ -1,0 +1,60 @@
+{
+  "directory": [
+
+  ],
+  "sql_file": "",
+  "files": [
+    {
+        "root_directory"    : "update/update_2.1/others/autoload.php",
+        "update_directory"  : "application/config/autoload.php"
+    },
+    {
+        "root_directory"    : "update/update_2.1/controllers/Admin.php",
+        "update_directory"  : "application/controllers/Admin.php"
+    },
+    {
+        "root_directory"    : "update/update_2.1/controllers/Home.php",
+        "update_directory"  : "application/controllers/Home.php"
+    },
+    {
+        "root_directory"    : "update/update_2.1/controllers/Login.php",
+        "update_directory"  : "application/controllers/Login.php"
+    },
+    {
+        "root_directory"    : "update/update_2.1/models/Crud_model.php",
+        "update_directory"  : "application/models/Crud_model.php"
+    },
+    {
+        "root_directory"    : "update/update_2.1/models/Payment_model.php",
+        "update_directory"  : "application/models/Payment_model.php"
+    },
+    {
+        "root_directory"    : "update/update_2.1/models/User_model.php",
+        "update_directory"  : "application/models/User_model.php"
+    },
+    {
+        "root_directory"    : "update/update_2.1/views/backend/admin/system_settings.php",
+        "update_directory"  : "application/views/backend/admin/system_settings.php"
+    },
+    {
+        "root_directory"    : "update/update_2.1/views/backend/header.php",
+        "update_directory"  : "application/views/backend/header.php"
+    },
+    {
+        "root_directory"    : "update/update_2.1/views/frontend/default/cart_items.php",
+        "update_directory"  : "application/views/frontend/default/cart_items.php"
+    },
+    {
+        "root_directory"    : "update/update_2.1/views/frontend/default/course_page.php",
+        "update_directory"  : "application/views/frontend/default/course_page.php"
+    },
+    {
+        "root_directory"    : "update/update_2.1/views/frontend/default/logged_out_header.php",
+        "update_directory"  : "application/views/frontend/default/logged_out_header.php"
+    },
+    {
+        "root_directory"    : "update/update_2.1/views/frontend/default/shopping_cart.php",
+        "update_directory"  : "application/views/frontend/default/shopping_cart.php"
+    }
+  ]
+}

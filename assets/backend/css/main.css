@@ -1,0 +1,244 @@
+.title_icon {
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+.alignToTitle {
+  float: right;
+}
+
+.required {
+  color: #f44336;
+}
+
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.not-active {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: black;
+}
+
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+// variables
+$base-color: cadetblue;
+$base-font: 'Raleway', sans-serif;
+
+.wrapper-image-preview{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  display: block;
+  /* min-width: 300px; */
+  height: 250px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  overflow: hidden;
+}
+
+.upload-options {
+  cursor: pointer;
+  position: relative;
+  height: 50px;
+  background-color: $base-color;
+  cursor: pointer;
+  overflow: hidden;
+  text-align: center;
+  transition: background-color ease-in-out 150ms;
+  &:hover {
+    background-color: lighten($base-color, 10%);
+  }
+  & input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+  & label {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+    &::after {
+      content: 'add';
+      font-family: 'Material Icons';
+      position: absolute;
+      font-size: 2.5rem;
+      color: rgba(230, 230, 230, 1);
+      top: calc(50% - 2.5rem);
+      left: calc(50% - 1.25rem);
+      z-index: 0;
+    }
+    & span {
+      display: inline-block;
+      width: 50%;
+      height: 100%;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      vertical-align: middle;
+      text-align: center;
+      &:hover i.material-icons {
+        color: lightgray;
+      }
+    }
+  }
+}
+.js--image-preview {
+  height: 200px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-image: url('https://www.l-nutra.com/wp-content/uploads/2018/07/placeholder.png');
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &::after {
+    content: "photo_size_select_actual";
+    font-family: 'Material Icons';
+    position: relative;
+    font-size: 4.5em;
+    color: rgba(230, 230, 230, 1);
+    top: calc(50% - 3rem);
+    left: calc(50% - 2.25rem);
+    z-index: 0;
+  }
+  &.js--no-default::after {
+    display: none;
+  }
+  &:nth-child(2) {
+    background-image: url('http://bastianandre.at/giphy.gif');
+  }
+}
+
+i.material-icons {
+  transition: color 100ms ease-in-out;
+  font-size: 2.25em;
+  line-height: 55px;
+  color: white;
+  display: block;
+}
+
+.drop {
+  display: block;
+  position: absolute;
+  background: transparentize($base-color, .8);
+  border-radius: 100%;
+  transform:scale(0);
+}
+
+.animate {
+  animation: ripple 0.4s linear;
+}
+
+.upload-options .btn {
+  cursor: pointer;
+}
+
+@keyframes ripple {
+  100% {opacity: 0; transform: scale(2.5);}
+}
+
+.float{
+  /* top: 70%; */
+  position: fixed;
+  padding: 13px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #727cf5;
+  color: #fff;
+  border-radius: 6px;
+  text-align: center;
+  border-color: #727cf5;
+  box-shadow: 2px 2px 3px #999;
+}
+.float:focus{
+  box-shadow: 0 0 0 0.2rem rgba(135,144,247,.5);
+  color: #fff;
+}
+.float:hover{
+  box-shadow: 0 0 0 0.2rem rgba(135,144,247,.5);
+  color: #fff;
+}
+
+.my-float{
+  color: #fff;
+}
+
+.nav-link {
+  padding: .5rem .5rem;
+}
+
+.category-action .action-icon {
+  color: #98a6ad;
+  font-size: 1.2rem;
+  display: inline-block;
+  padding: 0 3px;
+}
+/* Academy Version 1.4 */
+.form-control:disabled, .form-control[readonly]
+{
+    background-color:unset;
+}
+.bootstrap-tagsinput {
+    width: 100%;
+}
+.bootstrap-tagsinput .tag {
+  background-color: rgb(239, 114, 115);
+  border-radius: 3px;
+  padding: 0 3px;
+}
+.message_sending_time{
+    display: block;
+    padding: 5px;
+    font-size: 9px;
+    color: #a2a0a0;
+}
+.nav-pills .nav-link {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.draggable-item {
+    cursor: all-scroll;
+}
+.thinner-card-body {
+  padding: 1.0rem;
+}
+.display-none {
+  display: none;
+}
+/* This css is responsible for preventing body scrolling when the modal is opened */
+body.show {
+    overflow: hidden;
+    position: fixed;
+}
+/* This css is responsible for modal scrolling when the modal scrolling is not working */
+.modal {
+  overflow-y:auto;
+}
+.hidden {
+    display: none;
+}
