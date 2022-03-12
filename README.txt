@@ -29,5 +29,5 @@ Admin
 user: admin@example.com
 pass: admin
 
-****** https://www.campcodes.com/ ******
+
 Subcribe my Youtube Channel **** SerBermz ****
