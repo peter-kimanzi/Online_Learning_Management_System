@@ -2,7 +2,7 @@ FIRST Download
 
 1.XAMPP
 
-2."TEXT EDITOR" NOTEPAD++ OR SUBLIME TEXT 3 / ETC.
+2."TEXT EDITOR" visual studio OR SUBLIME TEXT  / ETC.
 
 3"Online_Learning_Management_System"
 
