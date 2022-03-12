@@ -6,7 +6,7 @@ FIRST Download
 
 3"Online_Learning_Management_System"
 
-4. Download the zip file/ download winrar
+4. Download the zip file/ or clone repo
 
 5. Extract the file and copy "Online_Learning_Management_System" folder
 
