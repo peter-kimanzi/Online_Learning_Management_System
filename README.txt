@@ -29,5 +29,3 @@ Admin
 user: admin@example.com
 pass: admin
 
-
-Subcribe my Youtube Channel **** SerBermz ****
